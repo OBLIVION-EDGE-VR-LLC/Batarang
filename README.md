@@ -6,7 +6,7 @@
 
 **Date:** July 17, 2026  
 **Status:** EXPLOITATION SUCCESSFUL  
-**Success Rate:** 100% (5/5 successful executions)  - When paired with an ALSR bypass
+**Success Rate:** 100% (5/5 successful executions)  - When paired with an ASLR bypass
 
 ---
 
@@ -690,7 +690,7 @@ Successfully demonstrated **arbitrary code execution** on Google Pixel 8 via GAT
 
 **Impact:** CRITICAL  
 **Exploitability:** HIGH (once ROP gadgets identified)  
-**Reliability:** 100% (5/5 successful executions) -- with an ALSR bypass
+**Reliability:** 100% (5/5 successful executions) -- with an ASLR bypass
 
 This exploitation demonstrates a complete attack chain from binary decompilation through payload delivery and code execution on a modern Android device with hardening mechanisms (ASLR, SELinux, stack canaries).
 
